@@ -2,5 +2,6 @@ test_*.*
 log/
 logs/
 my_model/
-training_data/
+training-data/
 __pycache__/
+env/

@@ -14,6 +14,9 @@ current_dir = os.path.dirname(os.path.realpath(__file__))
 while True:
     file_name = current_dir + '\\training-data\\training_data-{}.npy'.format(starting_value)
 
+    if not os.path.isdir(current_dir + '\\training-data'):
+      os.mkdir(current_dir + '\\training-data')
+
     if os.path.isfile(file_name):
         print('File exists, moving along',starting_value)
         starting_value += 1
@@ -74,7 +77,7 @@ def main(file_name, starting_value):
                 break
 
 
-            if len(training_data) == 2000:
+            if len(training_data) == 500:
 
                 file_save_thread = threading.Thread(target=save_file, args=(training_data, file_name))
                 file_save_thread.start()

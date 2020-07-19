@@ -72,7 +72,7 @@ def main():
         print('\r', end='')
 
 
-      cv2.imshow('window',cv2.resize(screen,(550,870)))
+      # cv2.imshow('window',cv2.resize(screen,(550,870)))
 
 
 main()

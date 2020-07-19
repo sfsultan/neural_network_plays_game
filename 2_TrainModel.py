@@ -7,7 +7,7 @@ import threading
 import datetime
 from models import minigooglenet_functional, keras_functional, keras_squential, nNet
 
-FILE_I_END = 10
+FILE_I_END = 1
 
 WIDTH = 270
 HEIGHT = 480
