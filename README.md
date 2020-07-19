@@ -4,7 +4,7 @@ Watched sentdex channel on youtube where the guy trained a neural net to play GT
 
 https://www.facebook.com/instantgames/327848237954688/
 
-![Alt Cricket FRVR Preview](/images/game_preview.png)
+![Alt Cricket FRVR Preview](./images/game_preview.png)
 
 * Capture training data with <code>1_CollectTrainingData.py</code>
 * Train the models with <code>2_TrainModel.py</code>
